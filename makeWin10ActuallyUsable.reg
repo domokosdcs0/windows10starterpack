@@ -60,16 +60,3 @@ Windows Registry Editor Version 5.00
 ; Who ever used the Meet Now button??
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
 "HideSCAMeetNow"=dword:00000001
-
-
-;;;;;;;;;;
-; quirks ;
-;;;;;;;;;;
-
-; Enable the build number text on the desktop (just looks cool in my opinion)
-[HKEY_CURRENT_USER\Control Panel\Desktop]
-"PaintDesktopVersion"=dword:00000001
-
-; Shows seconds on the taskbar clock
-[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
-"ShowSecondsInSystemClock"=dword:00000001
