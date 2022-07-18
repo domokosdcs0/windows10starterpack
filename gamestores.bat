@@ -1,0 +1,1 @@
+winget install --id=Valve.Steam -e  && winget install --id=Ubisoft.Connect -e  && winget install --id=EpicGames.EpicGamesLauncher -e 
